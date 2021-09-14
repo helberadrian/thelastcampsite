@@ -1,0 +1,70 @@
+/* ESTILOS PARA PAGINA EXPERIENCE */
+
+// Estilos para section_banner
+.bannerExperience {
+    background-image: url(../img/experiencetop.jpg);
+    height: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    p {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+        text-transform: uppercase;
+        font-size: 4rem;
+        text-align: left;
+        color: white;
+        padding: 40rem 10rem 25rem 10rem;
+    }
+}
+
+// Estilos section_experience
+.experience {
+    background-color: rgb(186, 183, 175);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.experienceArticulo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.experienceContenedor {
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 2rem;
+
+    img {
+        height: 250px;
+        width: 300px;
+    }
+
+    div {
+        height: 250px;
+        width: 300px;
+    }
+}
+
+.experienceInfo {
+    background-color: rgb(250, 183, 94);
+
+    h4 {
+        font-size: 3rem;
+        text-align: center;
+        font-family: 'Oswald', sans-serif;
+        font-weight: 400;
+        padding: 0.5rem;
+        color: white;
+    }
+
+    p {
+        font-size: 1.5rem;
+        font-family: 'Roboto', sans-serif;
+        padding: 1rem;
+    }
+}

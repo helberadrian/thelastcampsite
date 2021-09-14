@@ -1,0 +1,92 @@
+/* ESTILOS PAGINA CAMPING */
+
+// Estilos para section_banner
+.bannerCamping {
+    background-image: url(../img/campingtop.jpg);
+    height: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    p {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+        text-transform: uppercase;
+        font-size: 4rem;
+        text-align: right;
+        color: white;
+        padding: 5rem;
+    }
+}
+
+// Estilos para section_camping
+
+.camping {
+    background-color: rgb(186, 183, 175);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.campingArticulo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.campingContenedor {
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 2rem;
+
+    img {
+        height: 250px;
+        width: 300px;
+    }
+
+    div {
+        height: 250px;
+        width: 300px;
+        justify-content: space-between;
+
+        div {
+            height: 10%;
+            width: 90%;
+        }
+    }
+}    
+
+.campingImagen {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 5%;
+    background-color: white;
+
+
+    img {
+        max-height: 25px;
+        max-width: 25px;
+    }
+}
+
+.campingInfo {
+    background-color: rgb(250, 183, 94);
+
+    h4 {
+        font-size: 2.5rem;
+        text-align: center;
+        font-family: 'Oswald', sans-serif;
+        font-weight: 400;
+        padding: 1rem;
+        color: white;
+    }
+
+    p {
+        font-size: 1.5rem;
+        font-family: 'Roboto', sans-serif;
+        padding: 1rem;
+        color: white;
+    }
+}

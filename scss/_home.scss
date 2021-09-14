@@ -1,0 +1,208 @@
+/* ESTILOS PAGINA HOME */
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+}
+
+// Estilos para Body
+.body {
+    li {
+        list-style: none;
+    }
+    p {
+        font-size: 1.5rem;
+    }
+    a {
+        text-decoration: none;
+    }
+}
+
+// Estilos para header
+.header {
+    background-color: rgb(186, 183, 175);
+    display: flex;
+    flex-direction: row;
+    padding: 1.5rem 0rem 1.5rem 2rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_logo {
+    height: 60px;
+    width: auto;
+}
+
+.header_menu {
+    ul {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 0rem 2rem 0rem 0rem;
+
+    li {
+        
+
+        a {
+            font-family: 'Roboto', sans-serif;
+            color: white;
+            font-size:  1.8rem;
+            padding: 1rem;
+            }
+        a:hover {
+            color: rgb(250, 183, 94);
+        }
+        }
+    }
+}
+
+// Estilos para section_banner
+.section_banner {
+    height: 80%;
+    div {
+        height: 100%;
+        width: 100%;
+        align-items: center;
+    }
+}
+
+// Estilos para section_article
+.article_camping {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgb(250, 183, 94);
+}
+
+.article_experiencias {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgb(186, 183, 175);
+}
+
+.article_motorhome {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgb(255, 164, 165);
+}
+
+.article_imagen {
+    width: 50%;
+    display: flex;
+    max-height: 80%;
+    justify-content: center;
+    padding: 0;
+    overflow: hidden;
+}
+
+.article_texto {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    min-height: 500px;
+    justify-content: center;
+    padding: 0;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    img {
+        height: 12rem;
+        width: auto;
+        padding: 1rem;
+    }
+
+    h3 {
+        color: white;
+        font-family: 'Oswald', sans-serif;
+        font-weight: 400;
+        text-align: center;
+        font-size: 4rem;
+    }
+
+    p {
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        font-size: 2rem;
+        text-align: center;
+        padding: 2rem 4rem 2rem 4rem;
+    }
+}
+
+/* FOOTER */
+.footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(186, 183, 175);
+    padding: 3rem;
+}
+
+.footer_metodosPago {
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    P {
+        font-family: 'Roboto', sans-serif;
+        color: white;
+        text-transform: uppercase;
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    img {
+        max-height: 40px;
+        padding: 0.5rem;
+    }
+
+    img:hover {
+        transform: scale(1.2,1.2);
+    }
+}
+
+.footer_covid19 {
+    padding: 2rem;
+    background-color: rgb(250, 183, 94);
+
+    h4 {
+        color: white;
+        font-family: 'Oswald', sans-serif;
+        text-align: center;
+        font-size: 2rem;
+        font-weight: 400;
+    }
+
+    p {
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+    }
+}
+
+.footer_socialMedia {
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    p {
+        font-family: 'Roboto', sans-serif;
+        color: white;
+        text-transform: uppercase;
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    img {
+        max-height: 35px;
+        padding: 0.5rem;
+    }
+
+    img:hover {
+        transform: scale(1.2,1.2);
+    }
+}

@@ -1,0 +1,69 @@
+/* ESTILOS PARA PAGINA CONTACT */
+
+// Estilos para section_banner
+.bannerContact {
+    background-image: url(../img/contacttop.jpg);
+    height: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    p {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+        text-transform: uppercase;
+        font-size: 4rem;
+        text-align: left;
+        color: white;
+        padding: 10rem 10rem 25rem 10rem;
+    }
+}
+
+// Estilos para section_contactContenedor
+.contactContenedor {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.formulario {
+    background-color: rgb(255, 164, 165);
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    h4 {
+        color: white;
+        font-family: 'Oswald', sans-serif;
+        font-size: 3rem;
+        font-weight: 300;
+    }
+
+    div {
+        padding: 1rem;
+
+        label {
+            padding: 1.3rem;
+            color: black;
+            font-family: 'Oswald', sans-serif;
+            font-size: 1.5rem;
+        }
+    }
+
+}
+
+.preguntas {
+    background-color: rgb(250, 183, 94);
+    padding: 4rem;
+}
+
+.acordeon {
+    h2 {
+        button {
+            font-size: 2rem;
+            font-family: 'Oswald', sans-serif;
+            color: white;
+            background-color: rgb(186, 183, 175);
+        }
+    }
+}
