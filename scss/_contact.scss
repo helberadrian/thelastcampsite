@@ -27,7 +27,7 @@
 
 .formulario {
     background-color: rgb(255, 164, 165);
-    padding: 4rem;
+    padding: 6rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -48,8 +48,47 @@
             font-family: 'Oswald', sans-serif;
             font-size: 1.5rem;
         }
+
+        input {
+            width: 350px;
+            height: 15px;
+            font-family: 'Roboto', sans-serif;
+            font-size: 1.5rem;
+        }
+
+        select {
+            width: 350px;
+            height: 15px;
+
+            option {
+                font-family: 'Roboto', sans-serif;
+                font-size: 1.5rem;
+            }
+        }
+
+        textarea {
+            width: 350px;
+            font-family: 'Roboto', sans-serif;
+            font-size: 1.5rem;
+        }
     }
 
+    li {
+        padding: 1.5rem;
+
+        input {
+            width: 100px;
+            height: 25px;
+            border: 1px solid black;
+            font-family: 'Oswald', sans-serif;
+            font-size: 1.5rem;
+            text-align: center;
+            margin: 0.5rem;
+        }
+        input:hover {
+            background-color: rgb(186, 183, 175);
+        }
+    }
 }
 
 .preguntas {
