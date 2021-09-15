@@ -94,6 +94,14 @@
 .preguntas {
     background-color: rgb(250, 183, 94);
     padding: 4rem;
+
+    h4 {
+        color: white;
+        font-family: 'Oswald', sans-serif;
+        font-size: 3rem;
+        font-weight: 300;
+        padding: 1rem;
+    }
 }
 
 .acordeon {
@@ -103,6 +111,20 @@
             font-family: 'Oswald', sans-serif;
             color: white;
             background-color: rgb(186, 183, 175);
+        }
+
+        button:focus {
+            font-size: 2rem;
+            font-family: 'Oswald', sans-serif;
+            color: white;
+            background-color: rgb(255, 164, 165);
+        }
+    }
+
+    div {
+        div {
+            font-family: 'Oswald', sans-serif;
+            font-size: 2rem;
         }
     }
 }

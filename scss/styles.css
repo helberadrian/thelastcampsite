@@ -661,10 +661,30 @@
   padding: 4rem;
 }
 
+.preguntas h4 {
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  font-size: 3rem;
+  font-weight: 300;
+  padding: 1rem;
+}
+
 .acordeon h2 button {
   font-size: 2rem;
   font-family: 'Oswald', sans-serif;
   color: white;
   background-color: #bab7af;
+}
+
+.acordeon h2 button:focus {
+  font-size: 2rem;
+  font-family: 'Oswald', sans-serif;
+  color: white;
+  background-color: #ffa4a5;
+}
+
+.acordeon div div {
+  font-family: 'Oswald', sans-serif;
+  font-size: 2rem;
 }
 /*# sourceMappingURL=styles.css.map */
