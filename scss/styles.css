@@ -584,7 +584,10 @@
 
 .formulario {
   background-color: #ffa4a5;
-  padding: 6rem;
+  padding: 5rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -620,6 +623,8 @@
   height: 15px;
   font-family: 'Roboto', sans-serif;
   font-size: 1.5rem;
+  background-color: #ffa4a5;
+  border: white solid 1px;
 }
 
 .formulario div select {
@@ -630,12 +635,16 @@
 .formulario div select option {
   font-family: 'Roboto', sans-serif;
   font-size: 1.5rem;
+  background-color: #ffa4a5;
+  border: white solid 1px;
 }
 
 .formulario div textarea {
   width: 350px;
   font-family: 'Roboto', sans-serif;
   font-size: 1.5rem;
+  background-color: #ffa4a5;
+  border: white solid 1px;
 }
 
 .formulario li {
@@ -645,11 +654,12 @@
 .formulario li input {
   width: 100px;
   height: 25px;
-  border: 1px solid black;
+  border: 1px solid white;
   font-family: 'Oswald', sans-serif;
   font-size: 1.5rem;
   text-align: center;
   margin: 0.5rem;
+  background-color: #ffa4a5;
 }
 
 .formulario li input:hover {
@@ -673,18 +683,36 @@
   font-size: 2rem;
   font-family: 'Oswald', sans-serif;
   color: white;
-  background-color: #bab7af;
+  background-color: #fab75e;
 }
 
 .acordeon h2 button:focus {
   font-size: 2rem;
   font-family: 'Oswald', sans-serif;
   color: white;
-  background-color: #ffa4a5;
+  background-color: #bab7af;
 }
 
 .acordeon div div {
   font-family: 'Oswald', sans-serif;
   font-size: 2rem;
+}
+
+.accordion-item {
+  background-color: #fab75e;
+  border: 1px solid white;
+}
+
+.accordion-button:not(.collapsed) {
+  color: white;
+  background-color: #fab75e;
+  -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.125);
+          box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.125);
+}
+
+.form-select {
+  background-color: #ffa4a5;
+  border: 1px solid white;
+  color: black;
 }
 /*# sourceMappingURL=styles.css.map */
