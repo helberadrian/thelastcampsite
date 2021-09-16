@@ -58,12 +58,24 @@
 
 // Estilos para section_banner
 .section_banner {
-    height: 80%;
     div {
-        height: 100%;
-        width: 100%;
-        align-items: center;
-    }
+        max-height: 530px;
+     }
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 50px;
+    height: 9px;
+}
+
+.carousel-control-prev-icon {
+    width: 5rem;
+    height: 5rem;
+}
+
+.carousel-control-next-icon {
+    width: 5rem;
+    height: 5rem;
 }
 
 // Estilos para section_article

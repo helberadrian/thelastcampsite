@@ -65,16 +65,23 @@
   color: #fab75e;
 }
 
-.section_banner {
-  height: 80%;
+.section_banner div {
+  max-height: 530px;
 }
 
-.section_banner div {
-  height: 100%;
-  width: 100%;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+.carousel-indicators [data-bs-target] {
+  width: 50px;
+  height: 9px;
+}
+
+.carousel-control-prev-icon {
+  width: 5rem;
+  height: 5rem;
+}
+
+.carousel-control-next-icon {
+  width: 5rem;
+  height: 5rem;
 }
 
 .article_camping {
@@ -388,7 +395,7 @@
 
 /* ESTILOS PARA PAGINA EXPERIENCE */
 .bannerExperience {
-  background-image: url(../img/experiencetop.jpg);
+  background-image: url(../img/experiencetop.jpeg);
   height: 80%;
   background-position: center;
   background-repeat: no-repeat;
