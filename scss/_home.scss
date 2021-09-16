@@ -41,8 +41,6 @@
         padding: 0rem 2rem 0rem 0rem;
 
     li {
-        
-
         a {
             font-family: 'Roboto', sans-serif;
             color: white;
@@ -210,11 +208,232 @@
     }
 
     img {
-        max-height: 35px;
+        max-height: 40px;
         padding: 0.5rem;
     }
 
     img:hover {
         transform: scale(1.2,1.2);
+    }
+}
+
+// DISEÑOS RESPONSIVE
+@media only screen 
+  and (max-device-width: 1200px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+    // Estilos para section_article
+    .article_camping {   
+        div {
+            max-height: 550px;
+        }
+    }
+
+    .article_experiencias {
+        div {
+            max-height: 550px;
+        }
+    }
+
+    .article_motorhome {
+        div {
+            max-height: 550px;
+        }
+    }
+
+    .article_imagen {
+        max-height: 70%;
+    }
+
+    .article_texto {
+        min-height: 300px;
+
+        img {
+            height: 10rem;
+            padding: 1rem;
+        }
+
+        h3 {
+            font-size: 2.5rem;
+        }
+
+        p {
+            font-size: 1.5rem;
+            padding: 1rem 2rem 1rem 2rem;
+        }
+    }
+
+    /* FOOTER */
+    .footer_metodosPago {
+        padding: 1.5rem;
+        flex-direction: column;
+    }
+
+    .footer_socialMedia {
+        padding: 1.5rem;
+        flex-direction: column;
+    }
+}
+
+@media only screen 
+  and (max-device-width: 760px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+    // Estilos para section_article
+    .article_camping {   
+        div {
+            max-height: 500px;
+        }
+    }
+
+    .article_experiencias {
+        div {
+            max-height: 500px;
+        }
+    }
+
+    .article_motorhome {
+        div {
+            max-height: 500px;
+        }
+    }
+
+    .article_imagen {
+        max-height: 70%;
+    }
+
+    .article_texto {
+        min-height: 300px;
+
+        img {
+            height: 10rem;
+            padding: 1rem;
+        }
+
+        h3 {
+            font-size: 2rem;
+        }
+
+        p {
+            font-size: 1rem;
+            padding: 1rem 2rem 1rem 2rem;
+        }
+    }
+
+    /* FOOTER */
+    .footer_metodosPago {
+        padding: 1.5rem;
+        flex-direction: column;
+    }
+
+    .footer_socialMedia {
+        padding: 1.5rem;
+        flex-direction: column;
+    }
+}
+
+@media only screen 
+  and (max-device-width: 415px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+    // Estilos para header
+    .header {
+        flex-direction: row;
+        padding: 0.5rem 0rem 0.5rem 1em;
+    }
+
+    .header_logo {
+        height: 40px;
+    }
+
+    .header_menu {
+        ul {
+            padding: 0rem 1rem 0rem 0rem;
+        }
+
+        li {
+            a {
+                font-size: 1rem;
+                padding: 0.5rem;
+            }
+        }
+    }
+
+    // Estilos para section_article
+    .article_camping {   
+        div {
+            max-height: 400px;
+        }
+    }
+
+    .article_experiencias {
+        div {
+            max-height: 400px;
+        }
+    }
+
+    .article_motorhome {
+        div {
+            max-height: 400px;
+        }
+    }
+
+    .article_imagen {
+        max-height: 60%;
+    }
+
+    .article_texto {
+        min-height: 200px;
+
+        img {
+            height: 6rem;
+            padding: 0.5rem;
+        }
+
+        h3 {
+            font-size: 1.5rem;
+        }
+
+        p {
+            font-size: 1.1rem;
+            padding: 0.5rem 1rem 0.5rem 1rem;
+        }
+    }
+
+    /* FOOTER */
+    .footer {
+        padding: 1rem;
+    }
+
+    .footer_metodosPago {
+        padding: 1rem;
+        flex-direction: column;
+
+        img {
+            max-height: 30px;
+            padding: 0.5rem;
+        }
+    }
+
+    .footer_socialMedia {
+        padding: 1rem;
+        flex-direction: column;
+
+        img {
+            max-height: 30px;
+            padding: 0.5rem;
+        }
+    }
+
+    .footer_covid19 {
+        padding: 1rem;
+    
+        h4 {
+            font-size: 1.5rem;
+        }
+    
+        p {
+            font-size: 1rem;
+        }
     }
 }
