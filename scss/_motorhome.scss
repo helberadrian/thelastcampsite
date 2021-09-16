@@ -58,13 +58,33 @@
         text-align: center;
         font-family: 'Oswald', sans-serif;
         font-weight: 400;
-        padding: 1rem;
+        padding: 0.5rem;
         color: white;
     }
 
     p {
-        font-size: 2rem;
+        font-size: 1.5rem;
         font-family: 'Roboto', sans-serif;
-        padding: 1rem;
+        padding: 0.5rem 0.5rem 0.8rem 1.5rem;
+    }
+
+    div {
+        height: 25px;
+        width: 270px;
+        justify-content: space-between;
+    }
+}
+
+.motorhomeImagen {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 5%;
+    background-color: white;
+
+
+    img {
+        max-height: 25px;
+        max-width: 25px;
     }
 }
