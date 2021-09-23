@@ -218,213 +218,303 @@
 }
 
 // DISEÑOS RESPONSIVE
-@media only screen 
-  and (max-device-width: 1200px)
-  and (-webkit-min-device-pixel-ratio: 2) {
+@media (max-width: 850px) {
 
-    // Estilos para section_article
-    .article_camping {   
-        div {
-            max-height: 550px;
-        }
-    }
+// Estilos para section_article
+.article_camping {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgb(250, 183, 94);
 
-    .article_experiencias {
-        div {
-            max-height: 550px;
-        }
-    }
-
-    .article_motorhome {
-        div {
-            max-height: 550px;
-        }
-    }
-
-    .article_imagen {
-        max-height: 70%;
-    }
-
-    .article_texto {
-        min-height: 300px;
-
-        img {
-            height: 10rem;
-            padding: 1rem;
-        }
-
-        h3 {
-            font-size: 2.5rem;
-        }
-
-        p {
-            font-size: 1.5rem;
-            padding: 1rem 2rem 1rem 2rem;
-        }
-    }
-
-    /* FOOTER */
-    .footer_metodosPago {
-        padding: 1.5rem;
-        flex-direction: column;
-    }
-
-    .footer_socialMedia {
-        padding: 1.5rem;
-        flex-direction: column;
+    div {
+        height: 580px;
     }
 }
 
-@media only screen 
-  and (max-device-width: 760px)
-  and (-webkit-min-device-pixel-ratio: 1) {
+.article_experiencias {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgb(186, 183, 175);
 
-    // Estilos para section_article
-    .article_camping {   
-        div {
-            max-height: 500px;
-        }
-    }
-
-    .article_experiencias {
-        div {
-            max-height: 500px;
-        }
-    }
-
-    .article_motorhome {
-        div {
-            max-height: 500px;
-        }
-    }
-
-    .article_imagen {
-        max-height: 70%;
-    }
-
-    .article_texto {
-        min-height: 300px;
-
-        img {
-            height: 10rem;
-            padding: 1rem;
-        }
-
-        h3 {
-            font-size: 2rem;
-        }
-
-        p {
-            font-size: 1rem;
-            padding: 1rem 2rem 1rem 2rem;
-        }
-    }
-
-    /* FOOTER */
-    .footer_metodosPago {
-        padding: 1.5rem;
-        flex-direction: column;
-    }
-
-    .footer_socialMedia {
-        padding: 1.5rem;
-        flex-direction: column;
+    div {
+        height: 580px;
     }
 }
 
-@media only screen 
-  and (max-device-width: 415px)
-  and (-webkit-min-device-pixel-ratio: 1) {
+.article_motorhome {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgb(255, 164, 165);
 
+    div {
+        height: 580px;
+    }
+}
+
+.article_imagen {
+    width: 50%;
+    display: flex;
+    max-height: 80%;
+    justify-content: center;
+    padding: 0;
+    overflow: hidden;
+}
+
+.article_texto {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    min-height: 500px;
+    justify-content: center;
+    padding: 0;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    img {
+        height: 10rem;
+        width: auto;
+        padding: 1rem;
+    }
+
+    h3 {
+        color: white;
+        font-family: 'Oswald', sans-serif;
+        font-weight: 400;
+        text-align: center;
+        font-size: 3.5rem;
+    }
+
+    p {
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        font-size: 1.5rem;
+        text-align: center;
+        padding: 1.5rem 3.5rem 1.5rem 3.5rem;
+    }
+}
+
+/* FOOTER */
+.footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(186, 183, 175);
+    padding: 1.5rem;
+}
+
+.footer_metodosPago {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    P {
+        font-family: 'Roboto', sans-serif;
+        color: white;
+        text-transform: uppercase;
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    img {
+        max-height: 40px;
+        padding: 0.5rem;
+    }
+
+    img:hover {
+        transform: scale(1.2,1.2);
+    }
+}
+
+.footer_covid19 {
+    padding: 1.5rem;
+    background-color: rgb(250, 183, 94);
+
+    h4 {
+        color: white;
+        font-family: 'Oswald', sans-serif;
+        text-align: center;
+        font-size: 2rem;
+        font-weight: 400;
+    }
+
+    p {
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+    }
+}
+
+.footer_socialMedia {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+
+    p {
+        font-family: 'Roboto', sans-serif;
+        color: white;
+        text-transform: uppercase;
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    img {
+        max-height: 40px;
+        padding: 0.5rem;
+    }
+
+    img:hover {
+        transform: scale(1.2,1.2);
+    }
+}
+}
+
+@media (max-width: 420px) {
     // Estilos para header
     .header {
+        background-color: rgb(186, 183, 175);
+        display: flex;
         flex-direction: row;
-        padding: 0.5rem 0rem 0.5rem 1em;
+        padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+        justify-content: space-between;
+        align-items: center;
     }
 
     .header_logo {
-        height: 40px;
+        height: 35px;
+        width: auto;
     }
 
     .header_menu {
         ul {
-            padding: 0rem 1rem 0rem 0rem;
-        }
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            padding: 0.5rem;
+            justify-content: center;
+            
 
         li {
             a {
-                font-size: 1rem;
+                font-family: 'Roboto', sans-serif;
+                color: white;
+                font-size:  1.3rem;
                 padding: 0.5rem;
+                }
+            a:hover {
+                color: rgb(250, 183, 94);
+            }
             }
         }
     }
 
+    // Estilos para section_banner
+    .section_banner {
+        div {
+            max-height: 530px;
+        }
+    }
+
+    .carousel-indicators [data-bs-target] {
+        width: 20px;
+        height: 4px;
+    }
+
+    .carousel-control-prev-icon {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .carousel-control-next-icon {
+        width: 3rem;
+        height: 3rem;
+    }
+
     // Estilos para section_article
-    .article_camping {   
+    .article_camping {
+        flex-direction: column;
+        flex-wrap: wrap;
+    
         div {
-            max-height: 400px;
+            height: 420px;
         }
     }
-
+    
     .article_experiencias {
+        flex-direction: row;
+        flex-wrap: wrap;
+    
         div {
-            max-height: 400px;
+            height: 420px;
         }
     }
-
+    
     .article_motorhome {
+        flex-direction: row;
+        flex-wrap: wrap;
+    
         div {
-            max-height: 400px;
+            height: 420px;
         }
     }
-
+    
     .article_imagen {
-        max-height: 60%;
+        width: 100%;
+        max-height: 100%;
     }
-
+    
     .article_texto {
-        min-height: 200px;
-
+        width: 100%;
+        min-height: 450px;
+        flex-direction: column;
+        flex-wrap: wrap;
+    
         img {
-            height: 6rem;
+            height: 8rem;
+            width: auto;
             padding: 0.5rem;
         }
-
+    
         h3 {
-            font-size: 1.5rem;
+            font-size: 2.5rem;
         }
-
+    
         p {
-            font-size: 1.1rem;
-            padding: 0.5rem 1rem 0.5rem 1rem;
+            font-size: 1.5rem;
+            padding: 0.5rem 2.5rem 0.5rem 2.5rem;
         }
     }
-
+    
     /* FOOTER */
     .footer {
+        flex-direction: column;
         padding: 1rem;
     }
-
+    
     .footer_metodosPago {
-        padding: 1rem;
-        flex-direction: column;
-
+        padding: 0.5rem;
+        flex-direction: row;
+    
+        P {
+            font-size: 1rem;
+        }
+    
         img {
-            max-height: 30px;
+            max-height: 40px;
             padding: 0.5rem;
         }
-    }
-
-    .footer_socialMedia {
-        padding: 1rem;
-        flex-direction: column;
-
-        img {
-            max-height: 30px;
-            padding: 0.5rem;
+    
+        img:hover {
+            transform: scale(1,1);
         }
     }
-
+    
     .footer_covid19 {
         padding: 1rem;
     
@@ -433,7 +523,26 @@
         }
     
         p {
-            font-size: 1rem;
+            font-size: 1.2rem;
         }
     }
-}
+    
+    .footer_socialMedia {
+        padding: 0.5rem;
+        flex-direction: row;
+        flex-wrap: wrap;
+    
+        p {
+            font-size: 1rem;
+        }
+    
+        img {
+            max-height: 40px;
+            padding: 0.5rem;
+        }
+    
+        img:hover {
+            transform: scale(1,1);
+        }
+    }
+    }

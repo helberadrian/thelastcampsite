@@ -279,163 +279,340 @@
           transform: scale(1.2, 1.2);
 }
 
-@media only screen and (max-device-width: 1200px) and (-webkit-min-device-pixel-ratio: 2) {
+@media (max-width: 850px) {
+  .article_camping {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    background-color: #fab75e;
+  }
   .article_camping div {
-    max-height: 550px;
+    height: 580px;
+  }
+  .article_experiencias {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    background-color: #bab7af;
   }
   .article_experiencias div {
-    max-height: 550px;
+    height: 580px;
+  }
+  .article_motorhome {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    background-color: #ffa4a5;
   }
   .article_motorhome div {
-    max-height: 550px;
+    height: 580px;
   }
   .article_imagen {
-    max-height: 70%;
+    width: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    max-height: 80%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 0;
+    overflow: hidden;
   }
   .article_texto {
-    min-height: 300px;
+    width: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    min-height: 500px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
   }
   .article_texto img {
     height: 10rem;
+    width: auto;
     padding: 1rem;
+  }
+  .article_texto h3 {
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    font-size: 3.5rem;
+  }
+  .article_texto p {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 1.5rem 3.5rem 1.5rem 3.5rem;
+  }
+  /* FOOTER */
+  .footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: #bab7af;
+    padding: 1.5rem;
+  }
+  .footer_metodosPago {
+    padding: 1rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .footer_metodosPago P {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1rem;
+    text-align: center;
+  }
+  .footer_metodosPago img {
+    max-height: 40px;
+    padding: 0.5rem;
+  }
+  .footer_metodosPago img:hover {
+    -webkit-transform: scale(1.2, 1.2);
+            transform: scale(1.2, 1.2);
+  }
+  .footer_covid19 {
+    padding: 1.5rem;
+    background-color: #fab75e;
+  }
+  .footer_covid19 h4 {
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 400;
+  }
+  .footer_covid19 p {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+  }
+  .footer_socialMedia {
+    padding: 1rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .footer_socialMedia p {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1rem;
+    text-align: center;
+  }
+  .footer_socialMedia img {
+    max-height: 40px;
+    padding: 0.5rem;
+  }
+  .footer_socialMedia img:hover {
+    -webkit-transform: scale(1.2, 1.2);
+            transform: scale(1.2, 1.2);
+  }
+}
+
+@media (max-width: 420px) {
+  .header {
+    background-color: #bab7af;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .header_logo {
+    height: 35px;
+    width: auto;
+  }
+  .header_menu ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding: 0.5rem;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .header_menu ul li a {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 1.3rem;
+    padding: 0.5rem;
+  }
+  .header_menu ul li a:hover {
+    color: #fab75e;
+  }
+  .section_banner div {
+    max-height: 530px;
+  }
+  .carousel-indicators [data-bs-target] {
+    width: 20px;
+    height: 4px;
+  }
+  .carousel-control-prev-icon {
+    width: 3rem;
+    height: 3rem;
+  }
+  .carousel-control-next-icon {
+    width: 3rem;
+    height: 3rem;
+  }
+  .article_camping {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .article_camping div {
+    height: 420px;
+  }
+  .article_experiencias {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .article_experiencias div {
+    height: 420px;
+  }
+  .article_motorhome {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .article_motorhome div {
+    height: 420px;
+  }
+  .article_imagen {
+    width: 100%;
+    max-height: 100%;
+  }
+  .article_texto {
+    width: 100%;
+    min-height: 450px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .article_texto img {
+    height: 8rem;
+    width: auto;
+    padding: 0.5rem;
   }
   .article_texto h3 {
     font-size: 2.5rem;
   }
   .article_texto p {
     font-size: 1.5rem;
-    padding: 1rem 2rem 1rem 2rem;
+    padding: 0.5rem 2.5rem 0.5rem 2.5rem;
   }
   /* FOOTER */
-  .footer_metodosPago {
-    padding: 1.5rem;
+  .footer {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-  }
-  .footer_socialMedia {
-    padding: 1.5rem;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-}
-
-@media only screen and (max-device-width: 760px) and (-webkit-min-device-pixel-ratio: 1) {
-  .article_camping div {
-    max-height: 500px;
-  }
-  .article_experiencias div {
-    max-height: 500px;
-  }
-  .article_motorhome div {
-    max-height: 500px;
-  }
-  .article_imagen {
-    max-height: 70%;
-  }
-  .article_texto {
-    min-height: 300px;
-  }
-  .article_texto img {
-    height: 10rem;
     padding: 1rem;
   }
-  .article_texto h3 {
-    font-size: 2rem;
-  }
-  .article_texto p {
-    font-size: 1rem;
-    padding: 1rem 2rem 1rem 2rem;
-  }
-  /* FOOTER */
   .footer_metodosPago {
-    padding: 1.5rem;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  .footer_socialMedia {
-    padding: 1.5rem;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-}
-
-@media only screen and (max-device-width: 415px) and (-webkit-min-device-pixel-ratio: 1) {
-  .header {
+    padding: 0.5rem;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    padding: 0.5rem 0rem 0.5rem 1em;
   }
-  .header_logo {
-    height: 40px;
-  }
-  .header_menu ul {
-    padding: 0rem 1rem 0rem 0rem;
-  }
-  .header_menu li a {
+  .footer_metodosPago P {
     font-size: 1rem;
-    padding: 0.5rem;
-  }
-  .article_camping div {
-    max-height: 400px;
-  }
-  .article_experiencias div {
-    max-height: 400px;
-  }
-  .article_motorhome div {
-    max-height: 400px;
-  }
-  .article_imagen {
-    max-height: 60%;
-  }
-  .article_texto {
-    min-height: 200px;
-  }
-  .article_texto img {
-    height: 6rem;
-    padding: 0.5rem;
-  }
-  .article_texto h3 {
-    font-size: 1.5rem;
-  }
-  .article_texto p {
-    font-size: 1.1rem;
-    padding: 0.5rem 1rem 0.5rem 1rem;
-  }
-  /* FOOTER */
-  .footer {
-    padding: 1rem;
-  }
-  .footer_metodosPago {
-    padding: 1rem;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
   }
   .footer_metodosPago img {
-    max-height: 30px;
+    max-height: 40px;
     padding: 0.5rem;
   }
-  .footer_socialMedia {
-    padding: 1rem;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  .footer_socialMedia img {
-    max-height: 30px;
-    padding: 0.5rem;
+  .footer_metodosPago img:hover {
+    -webkit-transform: scale(1, 1);
+            transform: scale(1, 1);
   }
   .footer_covid19 {
     padding: 1rem;
@@ -444,7 +621,27 @@
     font-size: 1.5rem;
   }
   .footer_covid19 p {
+    font-size: 1.2rem;
+  }
+  .footer_socialMedia {
+    padding: 0.5rem;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .footer_socialMedia p {
     font-size: 1rem;
+  }
+  .footer_socialMedia img {
+    max-height: 40px;
+    padding: 0.5rem;
+  }
+  .footer_socialMedia img:hover {
+    -webkit-transform: scale(1, 1);
+            transform: scale(1, 1);
   }
 }
 
