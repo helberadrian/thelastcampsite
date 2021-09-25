@@ -932,6 +932,94 @@
   padding: 1rem;
 }
 
+@media (max-width: 850px) {
+  .bannerExperience {
+    height: 40%;
+  }
+  .bannerExperience p {
+    padding: 18rem;
+  }
+  .experienceArticulo {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 420px) {
+  .bannerExperience {
+    height: 30%;
+  }
+  .bannerExperience p {
+    font-size: 2rem;
+    padding: 8rem;
+  }
+  .experienceArticulo {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .experienceContenedor {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  /* FOOTER */
+  .footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 1rem;
+  }
+  .footer_metodosPago {
+    padding: 0.5rem;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .footer_metodosPago P {
+    font-size: 1rem;
+  }
+  .footer_metodosPago img {
+    max-height: 30px;
+    padding: 0.5rem;
+  }
+  .footer_metodosPago img:hover {
+    -webkit-transform: scale(1, 1);
+            transform: scale(1, 1);
+  }
+  .footer_socialMedia {
+    padding: 0.5rem;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .footer_socialMedia p {
+    font-size: 1rem;
+  }
+  .footer_socialMedia img {
+    max-height: 30px;
+    padding: 0.5rem;
+  }
+  .footer_socialMedia img:hover {
+    -webkit-transform: scale(1, 1);
+            transform: scale(1, 1);
+  }
+}
+
 /* ESTILOS PARA PAGINA MOTOR HOME */
 .bannerMotorhome {
   background-image: url(../img/motorhometop.jpg);
