@@ -90,3 +90,87 @@
         color: black;
     }
 }
+
+// DISEÑOS RESPONSIVE
+@media (max-width: 850px) {
+    // Estilos para section_banner
+    .bannerCamping {
+        height: 40%;
+        
+        p {
+            padding: 8rem;
+        }
+    }
+
+    // Estilos para section_camping
+    .campingArticulo {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 420px) {
+    // Estilos para section_banner
+    .bannerCamping {
+        height: 30%;
+        
+        p {
+            font-size: 2rem;
+            padding: 8rem;
+        }
+    }
+
+    // Estilos para section_camping
+    .campingArticulo {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .campingContenedor {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    /* FOOTER */
+    .footer {
+        flex-direction: column;
+        padding: 1rem;
+    }
+    
+    .footer_metodosPago {
+        padding: 0.5rem;
+        flex-direction: row;
+    
+        P {
+            font-size: 1rem;
+        }
+    
+        img {
+            max-height: 30px; //modifique
+            padding: 0.5rem;
+        }
+    
+        img:hover {
+            transform: scale(1,1);
+        }
+    }
+
+    .footer_socialMedia {
+        padding: 0.5rem;
+        flex-direction: row;
+        flex-wrap: wrap;
+    
+        p {
+            font-size: 1rem;
+        }
+    
+        img {
+            max-height: 30px; //modifique
+            padding: 0.5rem;
+        }
+    
+        img:hover {
+            transform: scale(1,1);
+        }
+    }
+}

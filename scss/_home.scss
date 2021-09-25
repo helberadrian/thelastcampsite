@@ -44,7 +44,7 @@
         a {
             font-family: 'Roboto', sans-serif;
             color: white;
-            font-size:  1.8rem;
+            font-size:  1.5rem;
             padding: 1rem;
             }
         a:hover {
@@ -387,11 +387,11 @@
     }
 
     .header_logo {
-        height: 35px;
+        height: 40px;
         width: auto;
     }
 
-    .header_menu {
+    .header_menu {  
         ul {
             display: flex;
             flex-direction: row;
@@ -404,7 +404,7 @@
             a {
                 font-family: 'Roboto', sans-serif;
                 color: white;
-                font-size:  1.3rem;
+                font-size:  1.5rem;
                 padding: 0.5rem;
                 }
             a:hover {
@@ -545,4 +545,4 @@
             transform: scale(1,1);
         }
     }
-    }
+}
