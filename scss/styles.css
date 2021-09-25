@@ -607,7 +607,7 @@
     font-size: 1rem;
   }
   .footer_metodosPago img {
-    max-height: 40px;
+    max-height: 30px;
     padding: 0.5rem;
   }
   .footer_metodosPago img:hover {
@@ -636,7 +636,7 @@
     font-size: 1rem;
   }
   .footer_socialMedia img {
-    max-height: 40px;
+    max-height: 30px;
     padding: 0.5rem;
   }
   .footer_socialMedia img:hover {
@@ -800,52 +800,6 @@
             justify-content: center;
     padding: 1rem;
   }
-  /* FOOTER */
-  .footer {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    padding: 1rem;
-  }
-  .footer_metodosPago {
-    padding: 0.5rem;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-  }
-  .footer_metodosPago P {
-    font-size: 1rem;
-  }
-  .footer_metodosPago img {
-    max-height: 30px;
-    padding: 0.5rem;
-  }
-  .footer_metodosPago img:hover {
-    -webkit-transform: scale(1, 1);
-            transform: scale(1, 1);
-  }
-  .footer_socialMedia {
-    padding: 0.5rem;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-  }
-  .footer_socialMedia p {
-    font-size: 1rem;
-  }
-  .footer_socialMedia img {
-    max-height: 30px;
-    padding: 0.5rem;
-  }
-  .footer_socialMedia img:hover {
-    -webkit-transform: scale(1, 1);
-            transform: scale(1, 1);
-  }
 }
 
 /* ESTILOS PARA PAGINA EXPERIENCE */
@@ -973,52 +927,6 @@
         -ms-flex-pack: center;
             justify-content: center;
     padding: 1rem;
-  }
-  /* FOOTER */
-  .footer {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    padding: 1rem;
-  }
-  .footer_metodosPago {
-    padding: 0.5rem;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-  }
-  .footer_metodosPago P {
-    font-size: 1rem;
-  }
-  .footer_metodosPago img {
-    max-height: 30px;
-    padding: 0.5rem;
-  }
-  .footer_metodosPago img:hover {
-    -webkit-transform: scale(1, 1);
-            transform: scale(1, 1);
-  }
-  .footer_socialMedia {
-    padding: 0.5rem;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-  }
-  .footer_socialMedia p {
-    font-size: 1rem;
-  }
-  .footer_socialMedia img {
-    max-height: 30px;
-    padding: 0.5rem;
-  }
-  .footer_socialMedia img:hover {
-    -webkit-transform: scale(1, 1);
-            transform: scale(1, 1);
   }
 }
 
@@ -1175,52 +1083,6 @@
         -ms-flex-pack: center;
             justify-content: center;
     padding: 1rem;
-  }
-  /* FOOTER */
-  .footer {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    padding: 1rem;
-  }
-  .footer_metodosPago {
-    padding: 0.5rem;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-  }
-  .footer_metodosPago P {
-    font-size: 1rem;
-  }
-  .footer_metodosPago img {
-    max-height: 30px;
-    padding: 0.5rem;
-  }
-  .footer_metodosPago img:hover {
-    -webkit-transform: scale(1, 1);
-            transform: scale(1, 1);
-  }
-  .footer_socialMedia {
-    padding: 0.5rem;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-  }
-  .footer_socialMedia p {
-    font-size: 1rem;
-  }
-  .footer_socialMedia img {
-    max-height: 30px;
-    padding: 0.5rem;
-  }
-  .footer_socialMedia img:hover {
-    -webkit-transform: scale(1, 1);
-            transform: scale(1, 1);
   }
 }
 
@@ -1382,5 +1244,39 @@
   background-color: #ffa4a5;
   border: 1px solid white;
   color: black;
+}
+
+@media (max-width: 850px) {
+  .bannerContact {
+    height: 40%;
+  }
+  .bannerContact p {
+    padding: 15rem;
+  }
+}
+
+@media (max-width: 420px) {
+  .bannerContact {
+    height: 30%;
+  }
+  .bannerContact p {
+    font-size: 2rem;
+    padding: 8rem;
+  }
+  .contactContenedor {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .formulario {
+    padding: 2rem;
+  }
+  .preguntas {
+    padding: 2rem;
+  }
 }
 /*# sourceMappingURL=styles.css.map */

@@ -154,3 +154,85 @@
     border: 1px solid white;
     color: black;
 }
+
+// DISEÑOS RESPONSIVE
+@media (max-width: 850px) {
+    // Estilos para section_banner
+    .bannerContact {
+        height: 40%;
+        
+        p {
+            padding: 15rem;
+        }
+    }
+}
+
+@media (max-width: 420px) {
+    // Estilos para section_banner
+    .bannerContact {
+        height: 30%;
+        
+        p {
+            font-size: 2rem;
+            padding: 8rem;
+        }
+    }
+
+    // Estilos para section_contactContenedor
+    .contactContenedor {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .formulario {
+        padding: 2rem;
+    }
+
+    // Estilos para section_preguntas
+    .preguntas {
+        padding: 2rem;
+    }
+    
+    // /* FOOTER */
+    // .footer {
+    //     flex-direction: column;
+    //     padding: 1rem;
+    // }
+    
+    // .footer_metodosPago {
+    //     padding: 0.5rem;
+    //     flex-direction: row;
+    
+    //     P {
+    //         font-size: 1rem;
+    //     }
+    
+    //     img {
+    //         max-height: 32px;
+    //         padding: 0.5rem;
+    //     }
+    
+    //     img:hover {
+    //         transform: scale(1,1);
+    //     }
+    // }
+
+    // .footer_socialMedia {
+    //     padding: 0.5rem;
+    //     flex-direction: row;
+    //     flex-wrap: wrap;
+    
+    //     p {
+    //         font-size: 1rem;
+    //     }
+    
+    //     img {
+    //         max-height: 32px;
+    //         padding: 0.5rem;
+    //     }
+    
+    //     img:hover {
+    //         transform: scale(1,1);
+    //     }
+    // }
+}

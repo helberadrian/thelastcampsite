@@ -130,46 +130,46 @@
         padding: 1rem;
     }
 
-    /* FOOTER */
-    .footer {
-        flex-direction: column;
-        padding: 1rem;
-    }
+    // /* FOOTER */
+    // .footer {
+    //     flex-direction: column;
+    //     padding: 1rem;
+    // }
     
-    .footer_metodosPago {
-        padding: 0.5rem;
-        flex-direction: row;
+    // .footer_metodosPago {
+    //     padding: 0.5rem;
+    //     flex-direction: row;
     
-        P {
-            font-size: 1rem;
-        }
+    //     P {
+    //         font-size: 1rem;
+    //     }
     
-        img {
-            max-height: 30px;
-            padding: 0.5rem;
-        }
+    //     img {
+    //         max-height: 32px;
+    //         padding: 0.5rem;
+    //     }
     
-        img:hover {
-            transform: scale(1,1);
-        }
-    }
+    //     img:hover {
+    //         transform: scale(1,1);
+    //     }
+    // }
 
-    .footer_socialMedia {
-        padding: 0.5rem;
-        flex-direction: row;
-        flex-wrap: wrap;
+    // .footer_socialMedia {
+    //     padding: 0.5rem;
+    //     flex-direction: row;
+    //     flex-wrap: wrap;
     
-        p {
-            font-size: 1rem;
-        }
+    //     p {
+    //         font-size: 1rem;
+    //     }
     
-        img {
-            max-height: 30px;
-            padding: 0.5rem;
-        }
+    //     img {
+    //         max-height: 32px;
+    //         padding: 0.5rem;
+    //     }
     
-        img:hover {
-            transform: scale(1,1);
-        }
-    }
+    //     img:hover {
+    //         transform: scale(1,1);
+    //     }
+    // }
 }
