@@ -279,7 +279,7 @@
           transform: scale(1.2, 1.2);
 }
 
-@media (max-width: 850px) {
+@media (max-width: 1030px) {
   .article_camping {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -759,7 +759,7 @@
   color: black;
 }
 
-@media (max-width: 850px) {
+@media (max-width: 1030px) {
   .bannerCamping {
     height: 40%;
   }
@@ -887,7 +887,7 @@
   padding: 1rem;
 }
 
-@media (max-width: 850px) {
+@media (max-width: 1030px) {
   .bannerExperience {
     height: 40%;
   }
@@ -1043,7 +1043,7 @@
   max-width: 25px;
 }
 
-@media (max-width: 850px) {
+@media (max-width: 1030px) {
   .bannerMotorhome {
     height: 40%;
   }
@@ -1246,7 +1246,7 @@
   color: black;
 }
 
-@media (max-width: 850px) {
+@media (max-width: 1030px) {
   .bannerContact {
     height: 40%;
   }
